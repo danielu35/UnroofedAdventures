@@ -1,0 +1,106 @@
+.home {
+   display: grid;
+   row-gap: 20px;
+}
+
+.home  .banner {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home .demo {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+}
+
+.home .tentStyles {
+    color: White;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home .description {
+    color: white;
+}
+
+.home img {
+    width: 70%;
+    border-radius: 10px;
+}
+
+.home .section1Button {
+    transition-duration: 0.4s;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.home .section1Button:hover {
+    background-color: dimgrey;
+    color: white;
+}
+
+.home .section2Button {
+    transition-duration: 0.4s;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.home .section2Button:hover {
+    background-color: dimgrey;
+    color: white;
+}
+
+.home .section3Button {
+    transition-duration: 0.4s;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.home .section3Button:hover {
+    background-color: dimgrey;
+    color: white;
+}
+
+.home .section4Button {
+    transition-duration: 0.4s;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.home .section4Button:hover {
+    background-color: dimgrey;
+    color: white;
+}
+
+.home .ourStory {
+    background-color: gray;
+    border-radius: 10px;
+}
+.home .our {
+    color: white;
+    font-size: 250%;
+    display: block;
+    text-align: left;
+    padding-left: 10%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+.home .story {
+    width: 70%;
+    margin: auto auto;
+    font-size: 175%;
+    text-align: left;
+    padding-bottom: 1%;
+    color: white;
+}
